@@ -173,7 +173,7 @@ export default function Products() {
                                             {/* Image Container */}
                                             <div className="w-full aspect-square overflow-hidden rounded-lg bg-white relative">
                                                 <Image
-                                                    src={`${process.env.NEXT_PUBLIC_AWS_URL}/hnco-infusions/products/${p.image}`}
+                                                    src={`${process.env.NEXT_PUBLIC_AWS_URL}/products/${p.image}`}
                                                     alt={p.name}
                                                     width={300}
                                                     height={300}

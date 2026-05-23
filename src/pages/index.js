@@ -170,10 +170,9 @@ export default function Home() {
 
   // ===================================================================================================================
   const cards = [
-    {
-      id: 1, name: "MATCHA & JAPANESE DRINKS", small_desc: "Ceremonial-style matcha, hojicha, latte mixes, and cafe-ready beverage bases.", img: "/Images/Home/card1.jpg" },
-    { id: 2, name: "TRADITIONAL INDIAN DRINKS", small_desc: "Kahwa, masala chai, kadha, sherbet-inspired blends, and wellness infusions.", img: "/Images/Home/card2.jpg" },
-    { id: 3, name: "COFFEE & MODERN BLENDS", small_desc: "Cold coffee, flavoured coffee, functional mixes, and everyday premium drinks.", img: "/Images/Home/card3.jpg" },
+    { id: 1, name: "MATCHA & JAPANESE DRINKS", small_desc: "Ceremonial-style matcha, hojicha, latte mixes, and cafe-ready beverage bases.", img: "/Images/Home/japanes_drink.png" },
+    { id: 2, name: "TRADITIONAL INDIAN DRINKS", small_desc: "Kahwa, masala chai, kadha, sherbet-inspired blends, and wellness infusions.", img: "/Images/Home/indian_drink.png" },
+    { id: 3, name: "TRADITIONAL Chinese DRINKS", small_desc: "Herbal teas, bubble tea blends, chrysanthemum drinks, plum beverages, and traditional wellness infusions.", img: "/Images/Home/chinese_drink.png" },
   ];
 
   const certificate_images = [

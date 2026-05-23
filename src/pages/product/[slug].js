@@ -116,7 +116,7 @@ export default function ProductDetail({ product }) {
                     {/* Product Image */}
                     <div className="w-full md:w-1/3 flex justify-center items-center relative">
                         <Image
-                            src={`${process.env.NEXT_PUBLIC_AWS_URL}/hnco-infusions/products/${product.image}`}
+                            src={`${process.env.NEXT_PUBLIC_AWS_URL}/products/${product.image}`}
                             width={400}
                             height={400}
                             alt={product?.name || "Product Image"}

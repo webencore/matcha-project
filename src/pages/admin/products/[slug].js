@@ -92,7 +92,7 @@ export default function EditProduct() {
         {form.oldImage && (
           <Image
             // src={`${process.env.NEXT_PUBLIC_AWS_URL}/products/${form.oldImage}`}
-            src={`${process.env.NEXT_PUBLIC_AWS_URL}/hnco-infusions/products/${form.oldImage}`}
+            src={`${process.env.NEXT_PUBLIC_AWS_URL}/products/${form.oldImage}`}
 
             width={120}
             height={120}

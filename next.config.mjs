@@ -4,7 +4,7 @@ const nextConfig = {
      remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'hnco-infusions-and-post.s3.eu-north-1.amazonaws.com',
+        hostname: 'matcha-project.s3.us-east-1.amazonaws.com',
         port: '', // Optional: leave empty for default
         pathname: '/**', // Matches all paths under the domain
       },

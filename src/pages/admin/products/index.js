@@ -127,7 +127,7 @@ export default function ProductList() {
                                     {p.image && (
                                         <Image
                                             // src={`${process.env.NEXT_PUBLIC_AWS_URL}/products/${p.image}`}
-                                            src={`${process.env.NEXT_PUBLIC_AWS_URL}/hnco-infusions/products/${p.image}`}
+                                            src={`${process.env.NEXT_PUBLIC_AWS_URL}/products/${p.image}`}
                                             className="w-14 h-14 object-cover"
                                             alt={"p.image"}
                                             width={200}
